@@ -1,0 +1,16 @@
+.page {
+  background: #2a2c2f;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__logo {
+  width: 32;
+  height: 32;
+  opacity: 1;
+}
+.main {
+  background: #2a2c2f;
+}
