@@ -7,12 +7,17 @@
     <meta name="description" content="Homeland sprint5" />
     <meta name="keywords" content="Html, css, Homeland" />
     <title>Homeland Tripleten</title>
-    <link rel="stylesheet" href="./fonts/inter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./favicon.svg" />
     <link rel="stylesheet" href="./pages/styles.css" />
   </head>
-  <body>
-    <div class="page">
+  <body class="page">
+    <div>
       <header class="header__logo">
         <nav class="nav">
           <img
@@ -23,38 +28,47 @@
         </nav>
       </header>
       <main class="main">
-        <div>
-          <h1 class="header__title">De patria a patria</h1>
+        <div class="header">
+          <h1 class="header__title">
+            De patria a <br />
+            patria
+          </h1>
           <p class="header__subtitle">
-            Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+            Un viaje épico de Kentucky a Burundi pasando por <br />
+            Gales y Ucrania
           </p>
-          <img src="./Images/__image.jpg" alt="title_image" />
+          <img
+            src="./Images/__image.jpg"
+            alt="image-error"
+            class="title__image"
+          />
         </div>
-        <div>
-          <h2>
+        <div class="intro">
+          <h2 class="intro__title">
             Conoce un poco mejor los lugares de los que proceden tus colegas en
             línea
           </h2>
-          <p>
+          <p class="intro__quote">
             Todo ser humano es un artista, un ser de la libertad, llamado a
             participar en la transformación y reforma de las condiciones, el
             pensamiento y las estructuras que conforman e influyen en nuestras
-            vidas. <br />— Joseph Beuys
+            vidas.
+          </p>
+          <p class="intro__quote-author">— Joseph Beuys</p>
+          <p class="intro__text">
+            La ciudad de TripleTen ha reunido a profesionales de diferentes
+            rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
+            de presentar historias y fotografías de algunas de las personas que
+            dedican su tiempo y esfuerzo a hacer que los futuros profesionales
+            de la tecnología de esta ciudad se sientan como en casa. Cada uno de
+            nosotros tiene una historia única sobre el lugar del que procede. No
+            dudes en añadir a nuestra colección tu propia historia y una obra de
+            arte visual dedicada a tu ciudad natal. No importa de dónde seas,
+            nos alegra que seas nuestro vecino.
           </p>
         </div>
-        <div>
-          La ciudad de TripleTen ha reunido a profesionales de diferentes
-          rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
-          de presentar historias y fotografías de algunas de las personas que
-          dedican su tiempo y esfuerzo a hacer que los futuros profesionales de
-          la tecnología de esta ciudad se sientan como en casa. Cada uno de
-          nosotros tiene una historia única sobre el lugar del que procede. No
-          dudes en añadir a nuestra colección tu propia historia y una obra de
-          arte visual dedicada a tu ciudad natal. No importa de dónde seas, nos
-          alegra que seas nuestro vecino.
-        </div>
       </main>
-      <footer class="footer__copywright">© 2024. Ignacio Romero</footer>
+      <footer class="footer__copywright">© 2026. Ignacio Romero</footer>
     </div>
   </body>
 </html>
