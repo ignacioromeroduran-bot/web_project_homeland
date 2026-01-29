@@ -1,0 +1,7 @@
+.footer__copywright {
+  color: white;
+  font-family: "inter";
+  display: flex;
+  justify-content: center;
+  margin: 92px auto 24px;
+}
