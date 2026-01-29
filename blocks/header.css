@@ -1,49 +1,45 @@
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 92px;
 }
 .header__logo {
   display: flex;
   justify-content: center;
 }
 .nav__logo {
-  width: 32;
-  height: 32;
+  max-width: 255px;
+  width: 100%;
   opacity: 1;
 }
 
 .header__title {
-  font-family: "inter";
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 96px;
   color: white;
   line-height: 100px;
-  letter-spacing: 0%;
   text-align: center;
-  width: 720;
-  height: 200;
-  top: 194px;
-  left: 280px;
+  max-width: 720px;
+  width: 100%;
+  margin: 91px auto 32px;
   opacity: 1;
 }
 .header__subtitle {
-  font-family: "inter";
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0%;
   text-align: center;
   color: white;
-  width: 720;
-  height: 72;
-  top: 426px;
-  left: 280px;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto 64px;
   opacity: 1;
 }
 
 .title__image {
-  width: 984;
-  height: 615;
+  max-width: 984px;
+  width: 100%;
   top: 562px;
   left: 148px;
   opacity: 1;
