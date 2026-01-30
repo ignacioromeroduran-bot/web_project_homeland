@@ -1,6 +1,6 @@
 .intro {
-  color: white;
-  margin: 92px 302px 0 148px;
+  max-width: 830px;
+  padding: 57px 302px 35px 148px;
 }
 
 .intro__title {
@@ -8,24 +8,19 @@
   font-size: 54px;
   line-height: 58px;
   letter-spacing: 0%;
-  max-width: 830px;
+  margin: 0 auto 20px;
   width: 100%;
-  top: 1269px;
-  left: 148px;
   opacity: 1;
 }
 
 .intro__quote {
-  max-width: 738px;
-  width: 100%;
-  top: 1482.91px;
-  left: 148px;
+  width: 88.91%;
   opacity: 1;
-  font-family: "inter";
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0%;
+  margin: 20px 0 10px;
 }
 
 .intro__quote-author {
@@ -34,12 +29,16 @@
   line-height: 34px;
   letter-spacing: 0%;
   text-align: right;
-  max-width: 732px;
-  width: 100%;
-  top: 1628.56px;
-  left: 148px;
+  width: 88.19%;
+  margin: 10px 0 32px;
   opacity: 1;
 }
+.intro__text {
+  width: 86.98%;
+  opacity: 1;
+  margin: 0 0 35px;
+}
+
 .intro__text {
   max-width: 722px;
   width: 100%;
