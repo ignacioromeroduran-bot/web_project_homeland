@@ -5,3 +5,9 @@
   width: 194px;
   padding: 57px 543px 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__copywright {
+    padding: 43px 287px 24px;
+  }
+}
