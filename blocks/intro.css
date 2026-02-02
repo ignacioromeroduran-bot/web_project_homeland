@@ -35,7 +35,6 @@
   opacity: 1;
   margin: 0 0 35px;
   max-width: 722px;
-  max-height: 181.54px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -82,7 +81,6 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    height: 175px;
   }
   .intro__quote {
     width: 288px;
