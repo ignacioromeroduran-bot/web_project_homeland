@@ -1,6 +1,10 @@
 .intro {
+  margin: auto;
+  max-width: 984px;
+}
+
+.intro__container {
   max-width: 830px;
-  padding: 57px 302px 35px 148px;
 }
 
 .intro__title {
