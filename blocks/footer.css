@@ -1,23 +1,32 @@
-.footer__copywright {
+.footer {
+  font-family: "Inter-regular";
   font-size: 16px;
-  display: flex;
   text-align: center;
-  width: 194px;
-  padding: 57px 543px 24px;
+  padding: 45px 0 24px;
+}
+.footer__copyright {
+  margin: 0 0 0 0;
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .footer__copywright {
+  .footer {
+    text-align: center;
     padding: 43px 287px 24px;
+  }
+  .footer__copyright {
+    width: 194px;
+    height: 16px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .footer__copywright {
-    width: 194px;
-    font-size: 14px;
+  .footer {
     line-height: 14px;
     padding: 32px 63px 24px;
     margin: 0 0 0 0;
+  }
+  .footer__copyright {
+    width: 194px;
+    font-size: 14px;
   }
 }

@@ -1,6 +1,8 @@
 .intro {
   margin: auto;
   max-width: 984px;
+  padding-top: 57px;
+  padding-bottom: 45px;
 }
 
 .intro__container {
@@ -35,6 +37,7 @@
   opacity: 1;
 }
 .intro__text {
+  font-family: "Inter-regular";
   width: 86.98%;
   opacity: 1;
   margin: 0 0 35px;
