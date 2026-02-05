@@ -1,0 +1,14 @@
+.photo-grid {
+  width: 1184px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  padding:;
+}
+.photo-grid__view {
+  width: 284px;
+  height: 213px;
+  padding: 0 0 0 0;
+}
